@@ -7,6 +7,26 @@ This repository contains all the code (and some additional files) from the [Kube
 The book hasn't been published yet, but is available through the Manning early-access program.
 You can take a [quick look online](https://livebook.manning.com/book/kubernetes-in-action-second-edition/chapter-1/?a_aid=kubiaML) or purchase the book at http://kubernetes-in-action.com/second-edition. Use code **au35luk** to get a 35% discount.
 
+## Kubectl Commands
+
+```
+kubectl get pods
+
+kubectl get svc
+
+kubectl get deployments
+
+kubectl create deployment kiada --image=kiada:0.1
+
+kubectl expose deployment kiada --type=LoadBalancer --port 8080
+
+kubectl scale deployment kiada --replicas=3
+
+kubectl get pods -o wide
+
+
+
+```
 
 ## Exploring the code archive
 
