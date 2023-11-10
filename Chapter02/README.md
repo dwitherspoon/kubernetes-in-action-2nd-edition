@@ -11,7 +11,7 @@ Building the **`kiada:1.0`** image:
 
 
 ```
-docker build -t kiada:latest
+docker build -t kiada:latest .
 
 docker run --name kiada-container -p 1234:8080 -d kiada
 ```
