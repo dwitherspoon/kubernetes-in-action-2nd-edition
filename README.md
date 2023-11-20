@@ -24,8 +24,6 @@ kubectl scale deployment kiada --replicas=3
 
 kubectl get pods -o wide
 
-
-
 ```
 
 ## Exploring the code archive
